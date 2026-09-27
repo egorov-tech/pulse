@@ -20,7 +20,6 @@ const routes = [
         name: 'Posts',
         component: () => import('@/features/posts/pages/PostPage.vue'),
     },
-    // Removed the individual post route since we now use modals for detailed views
     {
         path: '/favorites',
         name: 'Favorites',
