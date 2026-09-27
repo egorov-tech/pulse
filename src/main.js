@@ -2,7 +2,6 @@ import {createApp} from 'vue';
 
 import App from './App.vue';
 import router from '@/router/router.js';
-// Removed draggableComponent import
 
 import directives from '@/shared/lib/index.js';
 import components from '@/shared/ui';
@@ -15,7 +14,6 @@ import '@/assets/dark-theme.css';
 
 const app = createApp(App);
 
-// Removed draggable component registration
 
 components.forEach(component => {
     app.component(component.name, component);

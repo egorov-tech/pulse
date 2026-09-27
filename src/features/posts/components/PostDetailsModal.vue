@@ -1,6 +1,6 @@
 <template>
   <teleport to="body">
-    <transition name="modal">
+    <transition name="modal" appear>
       <div
         class="my-dialog"
         @click="$emit('close')"
